@@ -9,7 +9,7 @@
 ## Coding style
 * This project uses [Betty Coding Style](https://github.com/holbertonschool/Betty/wiki)
 
-##Files
+## Files
 These files are a combination of C and bash-script files. C files have a *.c in as their extension
 
 | Filename | Description |
