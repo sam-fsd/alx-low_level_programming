@@ -11,10 +11,10 @@ int main(void)
 	long long int LlongI;
 	float fl;
 
-	printf("Size of char: %c\n", sizeof(c));
-	printf("Size of int: %d\n", sizeof(d));
-	printf("Size of long int: %ld\n", sizeof(Lnum));
-	printf("Size of long long int: %lld\n", sizeof(LlongI));
+	printf("Size of char: %lu\n", (unsigned long)sizeof(c));
+	printf("Size of int: %lu\n", (unsigned long)sizeof(d));
+	printf("Size of long int: %lu\n", (unsigned long)sizeof(Lnum));
+	printf("Size of long long int: %lu\n", (unsigned long) sizeof(LlongI));
 	print("size of float: %f\n", sizeof(fl));
 
 	return (0);
