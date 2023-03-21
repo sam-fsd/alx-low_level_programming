@@ -1,16 +1,25 @@
 #include "main.h"
-
-int print_last_digit(int);
+#include <stdlib.h>
 
 /**
- * main - invokes prints_last_digit()
- * Return: 0 success
+ * print_last_digit - gets the last digit of an integer value
+ * Return: last digit of operand
+ * @n: operand
  */
-int main(void)
+int print_last_digit(int n)
 {
-	printf("%d", print_last_digit(98));
-	printf("%d", print_last_digit(0));
-	putchar('\n');
+	int last_digit;
 
-	return (0);
+	last_digit = n % 10;
+
+	if (n < 0)
+	{
+		int abs_num = abs(n);
+
+		last_digit = abs_num % 10;
+
+		return (last_digit);
+	}
+	else
+		return (last_digit);
 }
