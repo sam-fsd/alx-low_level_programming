@@ -1,13 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
-int _abs(int n);
 /**
- * main - invokes _abs() and prints its value
- * Return: 0 success
+ * _abs - prints absolute value with abs()
+ * Return: int value
+ * @n: value
  */
-int main(void)
+int _abs(int n)
 {
-	printf("Absolute value is %d\n", _abs(-34));
-	printf("Absolute value is %d\n", _abs(4));
-	return (0);
+	return (abs(n));
 }
