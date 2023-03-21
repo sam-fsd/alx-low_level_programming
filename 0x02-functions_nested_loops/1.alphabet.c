@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-void print_alphabet(void);
+#include "main.h"
 
 /**
  * main - invokes print_alphabet()
@@ -10,19 +8,4 @@ int main(void)
 {
 	print_alphabet();
 	return (0);
-}
-
-/**
- * print_alphabet - prints the alphabets
- */
-void print_alphabet(void)
-{
-	char c = 'a';
-
-	while (c <= 'z')
-	{
-		putchar(c);
-		c++;
-	}
-	putchar('\n');
 }
