@@ -1,10 +1,10 @@
 #include "main.h"
-#include "ctype.h"
 
 int _issupper(int n)
 {
-	if (issuper(n) == 0)
-		return (0);
-	else 
+	if (n >= 65 && c <= 90)
+	{
 		return (1);
+	}
+	return (0);
 }
