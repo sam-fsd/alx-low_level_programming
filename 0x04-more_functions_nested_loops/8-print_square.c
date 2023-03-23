@@ -4,19 +4,21 @@
  * print_square - prints a square with #
  * @size: size of square
  */
-void print_square(int size)
+void print_square(int n)
 {
-	if ( n <= 0)
-		_putchar('\n');
+	int i = 0, j;
 
-	int i, j;
-
-	for (i = 0; i < size; i++)
+	while (i < n && n > 0)
 	{
-		for (j = 0; j < size; j++)
+		j = 0;
+		while (j < n)
 		{
 			_putchar('#');
+			j++;
 		}
 		_putchar('\n');
+		i++;
 	}
+	if (i == 0)
+		_putchar('\n');
 }
