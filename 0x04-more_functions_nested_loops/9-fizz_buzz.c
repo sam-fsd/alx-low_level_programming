@@ -1,5 +1,19 @@
 #include <stdio.h>
 
+void fizzbuzz(void);
+
+/**
+ * main - invokes fizzbuzz()
+ * Return: 0 (success)
+ */
+int main(void)
+{
+        fizzbuzz();
+        putchar('\n');
+
+        return (0);
+}
+
 /**
  * fizzbuzz - prints 0 to 100
  * for mutliples of 3 it prints Fizz
@@ -30,15 +44,4 @@ void fizzbuzz(void)
 		}
 		i++;
 	}
-}
-/**
- * main - invokes fizzbuzz()
- * Return: 0 (success)
- */
-int main(void)
-{
-	fizzbuzz();
-	putchar('\n');
-
-	return (0);
 }
