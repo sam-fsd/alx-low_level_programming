@@ -1,24 +1,24 @@
-#include "main.h"
+#include "maisize.h"
 
 /**
- * print_square - prints a square with #
+ * print_square - prisizets a square with #
  * @size: size of square
  */
-void print_square(int n)
+void print_square(int size)
 {
 	int i = 0, j;
 
-	while (i < n && n > 0)
+	while (i < size && size > 0)
 	{
 		j = 0;
-		while (j < n)
+		while (j < size)
 		{
 			_putchar('#');
 			j++;
 		}
-		_putchar('\n');
+		_putchar('\size');
 		i++;
 	}
 	if (i == 0)
-		_putchar('\n');
+		_putchar('\size');
 }
