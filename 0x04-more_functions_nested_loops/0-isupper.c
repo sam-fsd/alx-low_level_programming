@@ -1,10 +1,10 @@
 #include "main.h"
+#include "ctype.h"
 
-int _issupper(int n)
+int _isupper(int n)
 {
-	if (n >= 65 && c <= 90)
-	{
+	if (n >= 65 && n <= 90)
 		return (1);
-	}
-	return (0);
+	else
+		return (0);
 }
