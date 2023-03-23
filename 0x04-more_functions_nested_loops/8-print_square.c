@@ -1,7 +1,7 @@
-#include "maisize.h"
+#include "main.h"
 
 /**
- * print_square - prisizets a square with #
+ * print_square - prints a square with #
  * @size: size of square
  */
 void print_square(int size)
