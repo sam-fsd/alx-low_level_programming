@@ -50,7 +50,7 @@ You need to take into account all the - and + signs before the number
 If there are no numbers in the string, the function must return 0
 
 
-| `101-keygen.c` | :-  a program that generates random valid passwords for the program [101-crackme}(https://github.com/holbertonschool/0x04.c). 
+| `101-keygen.c` | :-  a program that generates random valid passwords for the program [101-crackme](https://github.com/holbertonschool/0x04.c). 
 
 
 
