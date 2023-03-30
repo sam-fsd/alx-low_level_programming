@@ -2,7 +2,7 @@
 
 /**
  * _strncpy - copies n elements of src to replace
- * 		dest elements
+ * dest elements
  * @src: elements to be copied
  * @dest: elements to be replaced
  * @n: maximum numbers to be copied
@@ -20,5 +20,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = '\0';
 		i++;
 	}
-	return dest;
+	return (dest);
 }
