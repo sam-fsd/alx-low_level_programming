@@ -8,7 +8,7 @@ void print_chessboard(char (*a)[8])
 {
 	const int ROWS = 8;
 	const int COLS = 8;
-	
+
 	int row, col;
 
 	for (row = 0; row < ROWS; row++)
@@ -19,4 +19,4 @@ void print_chessboard(char (*a)[8])
 		if (a[row][COLS - 1] != '\0')
 			_putchar('\n');
 	}
-}	
+}
