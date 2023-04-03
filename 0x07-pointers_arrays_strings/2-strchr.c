@@ -20,7 +20,7 @@ char *_strchr(char *s, char c)
 		{
 			char *ptr;
 
-			ptr = s[i];
+			ptr = &s[i];
 			return (ptr);
 		}
 		i++;
