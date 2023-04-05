@@ -37,5 +37,5 @@ int check_divisibility(int num, int div)
 	if (div == num / 2)
 		return (1);
 
-	return (check_divisibility(n, div + 1));
+	return (check_divisibility(num, div + 1));
 }
