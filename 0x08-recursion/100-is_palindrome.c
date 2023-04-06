@@ -1,6 +1,8 @@
 #include "main.h"
 #include <string.h>
 
+int check_palindrome(char *, int, int);
+
 /**
  * is_palindrome - calls a wrapper function to check
  * if a string is plaindrome
@@ -15,7 +17,7 @@ int is_palindrome(char *s)
 	int len = strlen(s);
 	int last = len - 1;
 
-	if (s == 0 || s == 1)
+	if (len == 0 || len == 1)
 		return (1);
 
 	return (check_palindrome(s, first, last));
