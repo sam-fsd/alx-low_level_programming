@@ -18,14 +18,15 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	if (argv[1] < 0)
+
+	i = atoi(argv[1]);
+
+	if (i < 0)
 		printf("0\n");
 	else
 	{
-		i = atoi(argv[1]);
 		change = min_coins(i);
-
-		print("%d\n", change);
+		printf("%d\n", change);
 	}
 
 	return (0);
