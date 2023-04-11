@@ -19,6 +19,9 @@ char *str_concat(char *s1, char *s2)
 
 	ptr_str = malloc(sizeof(char) * total_size);
 
+	if (ptr_str == NULL)
+		return (NULL);
+
 	memcpy(ptr_str, s1, s1_len);
 	memcpy(ptr_str + s1_len, s2, s2_len + 1);
 
