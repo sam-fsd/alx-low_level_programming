@@ -2,6 +2,7 @@
 
 /**
  * _realloc - creates extra space to old allocated space
+ * @ptr: pointer old memory slot
  * @old_size: size of old memory
  * @new_size: extra space to allocate
  * Return: NULL if ptr is null. pointer to new space if successful
