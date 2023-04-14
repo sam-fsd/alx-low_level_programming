@@ -31,6 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		strcat(ptr, s2);
 		len = strlen(ptr) + 1;
 		ptr[len] = '\0';
+	}
 	else
 		strncat(ptr, s2, n);
 
