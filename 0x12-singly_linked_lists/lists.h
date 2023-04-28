@@ -1,6 +1,8 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stddef.h>
+
 /**
  * struct list - a struct to rep. a node
  * @str: pointer to a string
