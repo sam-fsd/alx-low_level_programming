@@ -1,6 +1,14 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+/**
+ * struct list - a struct to rep. a node
+ * @str: pointer to a string
+ * @len: integer element
+ * @next: pointer to a struct list
+ *
+ * Description: declares a new node in a linked list
+ */
 typedef struct list
 {
 	char *str;
