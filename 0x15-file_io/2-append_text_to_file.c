@@ -1,13 +1,20 @@
 #include "main.h"
 #include <string.h>
 
+/**
+ * append_text_to_file - appends text to a file if it exists
+ * @filename: pointer to the name of the file
+ * @text_content: text to be appended
+ *
+ * Return: 1 if success -1 on failure(file does not exist)
+ */
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd, fw, len;
 
 	if (filename == NULL)
 		return (-1);
-	
+
 	if (text_content != NULL)
 		len = strlen(text_content);
 
